@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servey khách hàng</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <h1>Market Research Survey</h1>
+        <p>Please take a few moments to complete this satisfaction survey</p>
+        <h3>What is your age range</h3>
+        <select name="age">
+            <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-50">35-50</option>
+            <option value="50+">50+</option>
+        </select>
+        <h3>What is your yearly income range?</h3>
+        <select name="age">
+            <option value="$0-$25,000">$0 - $25,000</option>
+            <option value="$25,001-$50,000">$25,001 - $50,000</option>
+            <option value="$50,001-$100,000">$50,001 - $100,000</option>
+            <option value="$100,000+">$100,000+</option>
+        </select>
+        <h3>Gender identity</h3>
+        <input type="radio" name="gender" value="male"> Male<br>
+        <input type="radio" name="gender" value="female"> Female<br>
+        <input type="radio" name="gender" value="nonbinary"> Nonbinary<br>
+        <input type="radio" name="gender" value="other"> Other
+        <h3>Which of the following products have your purchased in the last months. Please check all that apply</h3>
+        <input type="checkbox" name="pro1" value="product1"> Product 1<br>
+        <input type="checkbox" name="pro2" value="product2"> Product 2<br>
+        <input type="checkbox" name="pro3" value="product3"> Product 3<br>
+        <h3>How often would you use our new product?</h3>
+        <input type="radio" name="use" value="daily"> Daily<br>
+        <input type="radio" name="use" value="weekly"> Weekly<br>
+        <input type="radio" name="use" value="monthly"> monthly<br>
+        <h3>What would you pay for the new product?</h3>
+        <table>
+            <tr>
+                <td>$</td>
+                <td><input type="text" name="dollars" size="9"></td>
+                <td>.</td>
+                <td><input type="text" name="cents" size="1"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Dollars</td>
+                <td></td>
+                <td>Cents</td>
+            </tr>
+        </table>
+            <h3>What features would you like to see in the new product</h3>
+            <textarea cols="100%" rows="5"></textarea>
+            <p>Please rate your level of agreement with the following statements.</p>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th>Strongly</th>
+                    <th>Disagree</th>
+                    <th>Agree</th>
+                    <th>Strongly Agree</th>
+                </tr>
+                <tr>
+                    <th>Our products are priced fairly</th>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc1"></td></tr>
+                            <tr><td>1</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc1"></td></tr>
+                            <tr><td>2</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc1"></td></tr>
+                            <tr><td>3</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc1"></td></tr>
+                            <tr><td>4</tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Our products are hight quality</th>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc2"></td></tr>
+                            <tr><td>1</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc2"></td></tr>
+                            <tr><td>2</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc2"></td></tr>
+                            <tr><td>3</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc2"></td></tr>
+                            <tr><td>4</tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Our products are priced fairly</th>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc3"></td></tr>
+                            <tr><td>1</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc3"></td></tr>
+                            <tr><td>2</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc3"></td></tr>
+                            <tr><td>3</tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr><td><input type="radio" name="lc3"></td></tr>
+                            <tr><td>4</tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
