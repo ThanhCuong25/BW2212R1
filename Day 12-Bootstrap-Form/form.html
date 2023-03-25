@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <link rel="stylesheet" href="assect/bootstrap-5.0.2/css/bootstrap.min.css">
+    <script src="assect/bootstrap-5.0.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header> 
+            <div class="row mx-md-n5">
+                <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
+                <div class="col px-md-5"><div class="p-3 border bg-light">Custom column padding</div></div>
+              </div>
+              
+              <div class="" style="width: 100px;">
+                Centered element
+              </div>
+        </header>
+        <main>
+            <form class=" mt-4">
+                <div class="form-group mb-3">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Nhập email của bạn">
+                </div>
+                <div class="form-group mb-3">
+                    <label for="pass">Password</label>
+                    <input type="password" class="form-control" id="pass" name="email"
+                        placeholder="Nhập password của bạn">
+                </div>
+                <div class="form-checkbox mb-3">
+                    <input type="checkbox" class="form-check-input" id="remember">
+                    <label for="remember" class="form-check-label">Remember</label>
+                </div>
+              
+               <select class="form-select mb-3" name="number">
+                <option selected>Chọn đối tượng</option>
+                <option value="1">One</option>
+                <option value="2">Tow</option>
+                <option value="3">Three</option>
+               </select>
+
+               <div class="form-group mb-3">
+                    <label for="money">Số tiền</label>
+                    <div class="input-group">
+                   <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" name="money" id="money">                 
+                    </div>   
+               </div>
+               <div class="form-floating">
+                <input type="text" class="form-control" name="note" id="note" >
+                <label for="note"> Note</label>
+               </div>
+                <div type="submit" class="btn btn-primary">Submit</div>
+            </form>
+
+        </main>
+        <footer></footer>
+    </div>
+</body>
+
+</html>

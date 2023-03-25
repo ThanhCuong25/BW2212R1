@@ -1,0 +1,55 @@
+.bg-333 {
+    background-color:#333;
+}
+.fa-23{
+    font-size: 23px !important;
+}
+.logo{
+    width: 80%;
+    height:80%;
+}
+.logo-tab{
+    width:80% ;
+    height:60px
+}
+.btn-orange{
+    background-color: #c89979 !important;
+}
+.bg-orange{
+    background-color: #c89979 !important;
+}
+.bg-f0f8ff{
+    background-color: #f0f8ff;
+}
+.text-orange{
+    color: #c89979 !important;
+}
+ul{
+    list-style-type: none;
+}
+.offcanvas-width{
+    width: 550px !important;
+}
+.bg-222222{
+    background-color: #222222;
+}
+.img-classico{
+    height: 300px;
+  
+}
+.card-height{
+    height: 450px;
+}
+.card{
+    background-color: #f0f8ff !important;
+}
+.img-thanhtoan{
+    height:100px;
+}
+.bg-danhgia{
+    height: 250px;
+}
+.border-1{  
+    border-top: 1px dashed gainsboro;
+    border-bottom: 1px dashed gainsboro;;
+}

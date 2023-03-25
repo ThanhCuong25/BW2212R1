@@ -1,0 +1,129 @@
+body{
+    background-color: gainsboro;
+    width: 500px;
+    margin:auto;
+}
+.head{
+    background-color: #4b64af;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+.head .icon1{
+    margin-top: 8px;
+    margin-left: 9px;
+    float: left;
+}
+.head .icon2{
+    background-color: #335089;
+    float: left;
+    margin: 21px 1px 1px 20px;
+    height: 29px;
+    border-radius: 14px;
+    width: 66%;
+    border: none;
+}
+.head .icon3{
+    float: left;
+    position: absolute;
+    top: 22px;
+    left: 200px;
+}
+.head .icon4{
+    margin-top: 12px;
+    margin-left: 12px;
+    float: left;
+}
+main{
+    margin-top: 2%;
+    background-color:white ;
+    width: 100%;
+    height: 1050px;
+    display: block;
+}
+.nameuse{
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+}
+.nameuse .icon5{
+    margin-top: 4%;
+    margin-left: 3%;
+    float: left;
+}
+.name{
+    margin-top: 5%;
+    margin-left: 2%;
+    float:left
+}
+.name h3 {
+    margin: 0px;
+}
+.name p{
+    margin: 0px;
+}
+.nameuse .icon6{
+    float: left;
+    margin-top: 49px;
+    margin-left: 6px;
+}
+.nameuse .daucham{
+    float: right;
+    font-size: 35px;
+    color: #dcdcdc;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.text p{
+    margin-top: -5px;
+    margin-left: 17px;
+}
+.emotion{
+    display: inline-block;
+}
+.emotion .icon7{
+    display: block;
+    float: left;
+    margin-left: 10px;
+}
+
+.emotion p{
+    float: left;
+    margin-top: 13px;
+    margin-left: 4px;
+    font-weight: 500;
+}
+.emotion .comment{
+    float: right;
+    margin-top: 13px;
+    margin-left: 145px;
+    font-weight: 500;
+}
+
+hr{ margin-top: -8px;
+    margin-left: 10px;
+    margin-right:10px;
+}
+.tha-icon{
+    display: block;
+    padding-left: 18px ;
+   
+}
+.tha-icon .icon8{
+    margin-left: 30px;
+    float: left;
+}
+.tha-icon .icon9{
+    margin-left: 30px;
+    margin-top: 3px;
+    float: left;
+}
+.tha-icon .icon10{
+    margin-left: 30px;
+    margin-top: -2px;
+    float: left;
+}

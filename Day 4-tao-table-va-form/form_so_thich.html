@@ -8,20 +8,60 @@
     <title>Form sở thích</title>
 </head>
 
+<style>
+    body{
+        align-content: center;
+    }
+    form {
+        background-color: black;
+        color: white;
+      
+    }
+
+    fieldset {
+        border: none;
+    }
+
+    table td {
+        border: 1px solid blueviolet;
+
+    }
+</style>
+
 <body>
-    <form action="" method="get">
+    <form action="" method="post">
         <fieldset>
             <H1>Sở thích của bạn</H1>
-            Họ và tên <input type="text" name="name"><br>
-            Email <input type="email" name="email"><br>
-            Sở thích<input type="checkbox" name="sothich" value="tt">Thể thao
-            <input type="checkbox" name="sothich" value="am">Âm nhạc
-            <input type="checkbox" name="sothich" value="đs">Đọc sách
-            <input type="checkbox" name="sothich" value="lw">Lướt web
-            <input type="checkbox" name="sothich" value="cg">Chơi game
-            <input type="checkbox" name="sothich" value="đa">Điện ảnh<br>
-            <input type="checkbox" name="sothich" value="dl">Du lịch<br>
-            <button type="button" >
+            <table style="border-collapse:collapse;">
+                <tr>
+                    <td> Họ và tên</td>
+                    <td><input type="text" name="name" size="15"></td>
+                </tr>
+                <tr>
+                    <td> Email</td>
+                    <td><input type="email" name="email" size="15"></td>
+                </tr>
+                <tr>
+                    <td> Website</td>
+                    <td><input type="text" nam="website"></td>
+                </tr>
+                <tr>
+                    <td> Comment</td>
+                    <td><textarea name="comment" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td> Sở thích</td>
+                    <td><input type="checkbox" name="sothich" value="tt">Thể thao
+                        <input type="checkbox" name="sothich" value="am">Âm nhạc
+                        <input type="checkbox" name="sothich" value="lw">Lướt web
+                        <input type="checkbox" name="sothich" value="đa">Điện ảnh
+                        <input type="checkbox" name="sothich" value="dl">Du lịch
+                    </td>
+                </tr>
+
+            </table>
+
+            <button type="button">
                 Gửi thông tin
             </button>
             <input type="reset" value="Nhập lại">
