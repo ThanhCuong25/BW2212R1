@@ -1,0 +1,290 @@
+.container {
+    margin: -8px;
+    background-color: #444444;
+}
+
+.adress-header {
+    background-color: #333;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.icon1 {
+    height: 30px;
+
+    float: left;
+}
+
+.icon1 a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.icon1 i {
+    font-size: 22px;
+    margin-top: 4px;
+    margin-right: 9px;
+}
+
+.icon1 p {
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.icon2 {
+
+    float: left;
+    height: 30px;
+    padding-left: 17px;
+}
+
+.icon2 a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.icon2 i {
+    font-size: 22px;
+    margin-top: 6px;
+    margin-right: 9px;
+}
+
+.icon2 p {
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.mxh_icon {
+    float: right;
+    font-size: 16px;
+    margin-top: 6px;
+    color: white;
+}
+
+.mxh_icon i {
+    margin-left: 10px;
+}
+
+.tim-sp {
+    margin: 1px 0px;
+    background-color: #333;
+    width: 100%;
+    height: 95px;
+    padding-left: 80px;
+    padding-right: 80px;
+    box-sizing: border-box;
+}
+
+.tim-sp .logo {
+    float: left;
+}
+
+.tim-sp .logo a img {
+    width: 170px;
+    height: 90px;
+}
+
+.tim-sp .search {
+    float: left;
+    margin: 32px 300px;
+}
+
+.tim-sp .search input {
+    width: 330px;
+    height: 31px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding-left: 10px;
+}
+
+.tim-sp .search button {
+    background-color: #c89979;
+    color: white;
+    border: none;
+    width: 65px;
+    height: 33px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.icon4 {
+    float: right;
+    color: white;
+    font-size: 25px;
+    margin-top: 32px;
+}
+
+.icon4 i {
+    margin-left: 20px;
+}
+
+
+
+nav {
+
+    box-sizing: border-box;
+    background-color: #333;
+    height: 50px;
+    text-align: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+nav a ul {
+    color: white;
+    margin-top: 1px;
+    float: left;
+    padding-left: 130px;
+    padding-top: 12px;
+}
+
+nav a ul li {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.gt {
+    background-color: #222222;
+    width: 100%;
+    height: 76vh;
+    float: left;
+    clear: both;
+    padding-left: 10%;
+
+    box-sizing: border-box;
+}
+
+.gt .gt-nd {
+    width: 40%;
+    color: white;
+    float: left;
+    margin-top: 20vh;
+
+}
+
+.gt .gt-nd a button {
+    border: 3px solid white;
+    background-color: #222222;
+    color: white;
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.gt .gt-hinh-anh {
+    width: 60%;
+    float: left;
+}
+
+.gt .gt-hinh-anh img {
+    width: 100%;
+    height: 76vh;
+}
+
+.sp {
+   background-color: aliceblue;
+    width: 100%;
+    float: left;
+    padding: 5% 5%;
+    box-sizing: border-box;
+    clear: both;
+}
+
+.sp .lc-sp a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.sp .lc-sp img {
+    width: 48%;
+    height: 45vh;
+}
+
+.sp-ban-chay {
+    float: left;
+    width: 100%;
+    height: 70vh;
+    box-sizing: border-box;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sp-ban-chay .sp-dh {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tt-dh {
+
+    width: 22%;
+    text-align: center;
+    border: 1px solid #aca9a945;
+}
+
+.tt-dh img {
+    width: 80%;
+    height: 40vh;
+}
+
+.tt-dh .gia-dh {
+    border: 1px solid #aca9a945;
+    padding-bottom: 25px;
+}
+
+.gia-dh p {
+    color: #c89979;
+    font-weight: bold;
+}
+
+.gia-dh button {
+    background-color: #c89979;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 120px;
+}
+
+.dk-tt {
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.dk-tt h1 {
+    font-size: 25px;
+}
+
+.dk-tt form input {
+    background-color: #f1f1f1;
+    width: 330px;
+    height: 31px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding-left: 10px;
+    float: left;
+}
+
+.dk-tt form button {
+    background-color: #c89979;
+    color: white;
+    border: none;
+    width: 65px;
+    height: 33px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.dk-tt form {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
